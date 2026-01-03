@@ -12,7 +12,7 @@ const app = express();
 
 
 const allowedOrigins = [
-    "https://prakash-tax-solutions.netlify.app/",
+    "https://prakash-tax-solutions.netlify.app",
 ];
 
 app.use(
