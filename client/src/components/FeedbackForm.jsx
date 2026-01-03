@@ -16,7 +16,7 @@ export default function FeedbackForm() {
     }
 
     try {
-      await axios.post("http://localhost:5080/api/reviews/add", {
+      await axios.post("https://prakash-tax.onrender.com/api/reviews/add", {
         name,
         comment,
         rating,
