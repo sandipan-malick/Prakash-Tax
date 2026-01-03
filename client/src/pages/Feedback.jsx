@@ -11,7 +11,7 @@ export default function Feedback() {
     const fetchFeedback = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/feedback/all"
+          "https://prakash-tax.onrender.com/api/feedback/all"
         );
 
         if (isMounted) {
