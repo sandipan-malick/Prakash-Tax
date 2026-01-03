@@ -12,7 +12,7 @@ export default function AdminReviews() {
   const fetchReviews = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5080/api/admin/reviews"
+        "https://prakash-tax.onrender.com/api/admin/reviews"
       );
 
       if (isMounted) {
@@ -37,7 +37,7 @@ export default function AdminReviews() {
 
     try {
       await axios.delete(
-        `http://localhost:5080/api/admin/reviews/${id}`
+        `https://prakash-tax.onrender.com/api/admin/reviews/${id}`
       );
 
       // Remove deleted review from UI
