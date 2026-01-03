@@ -12,7 +12,7 @@ export default function Home() {
 
     const fetchReviews = async () => {
       try {
-        const res = await axios.get("http://localhost:5080/api/reviews/feedBackSend");
+        const res = await axios.get("https://prakash-tax.onrender.com/api/reviews/feedBackSend");
         if (isMounted) {
           setReviews(res.data || []);
         }
